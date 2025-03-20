@@ -29,7 +29,7 @@ void run_runtime_comparison() {
 
     auto elapsedTime = chrono::duration_cast<chrono::nanoseconds>(endTime - startTime);
 
-    cout << "[Tiempo de ejecución] Las cadenas son " << (resultado ? "iguales" : "diferentes") << "." << endl; 
+    cout << "[Tiempo de ejecucion] Las cadenas son " << (resultado ? "iguales" : "diferentes") << "." << endl; 
     cout << "Tiempo de ejecución: " << elapsedTime.count() << " nanosegundos" << endl;
 }
 

@@ -38,8 +38,8 @@ void insert(int val, int pos, listaEnlazada*lista){
         return;
     }
 
-    if (lista->size<pos){
-        cout<<"La posicion deseada es mas larga que la lista! El nodo se insertara al final"<<endl;
+    if (lista->size<pos||pos<0){
+        cout<<"La posicion deseada es mas larga que la lista (o negativa)! El nodo se insertara al final"<<endl;
         push_back(val,lista);//poner al final
         return ;
     }
@@ -60,8 +60,8 @@ void erase(int pos, listaEnlazada*lista){
     if (!lista or !lista->head){return;} //no hay nada que borrar
     if (pos == 0) { // borrar head
         lista->head = move(lista->head->prox);}
-    if (lista->size<pos){
-        cout<<"La posicion deseada es mas larga que la lista! Se borrara el nodo del final"<<endl;
+    if (lista->size<pos||pos<0){
+        cout<<"La posicion deseada es mas larga que la lista(o negativa)! Se borrara el nodo del final"<<endl;
         pos=lista->size-1;//actualizo que pos sea el ultimo lugar
     }
     
