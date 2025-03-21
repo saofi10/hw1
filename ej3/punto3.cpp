@@ -1,8 +1,4 @@
-#include <iostream>
-#include <string>
-#include <memory>
 #include "punto3.hpp"
-using namespace std;
 
 unique_ptr<Nodo> create_node(int value) {
     

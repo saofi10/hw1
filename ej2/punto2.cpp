@@ -1,6 +1,3 @@
-#include <iostream>
-#include <string>
-#include <fstream>
 #include "punto2.hpp"
 
 using namespace std;

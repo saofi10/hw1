@@ -1,6 +1,7 @@
 #ifndef PUNTO1_HPP
 #define PUNTO1_HPP
-
+#include <iostream>
+using namespace std;
 /**
  * @brief Crea una matriz dinamica de tamanio n x n y la llena con valores ascendentes
  * @param n Tamanio de la matriz 

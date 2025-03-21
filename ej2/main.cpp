@@ -1,7 +1,4 @@
 #include "punto2.hpp"
-#include <iostream>
-using namespace std;
-
 // b)iv
 int main(int argc, char* argv[]) {
     try {

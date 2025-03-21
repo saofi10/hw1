@@ -1,6 +1,3 @@
-#include <iostream>
-#include <string>
-#include <memory>
 #include "punto3.hpp"
 
 int main(){

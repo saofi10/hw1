@@ -1,6 +1,4 @@
 #include "punto1.hpp"
-#include <iostream>
-using namespace std;
 
 int main() {
     int n;

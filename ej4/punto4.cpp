@@ -1,7 +1,4 @@
-#include <iostream>
-#include <chrono>
 #include "punto4.hpp"
-using namespace std;
 
 //4a
 bool compararStrings(const char* str1, const char* str2) {

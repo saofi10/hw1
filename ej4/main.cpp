@@ -1,7 +1,4 @@
-#include <iostream>
-#include <chrono>
 #include "punto4.hpp"
-using namespace std;
 //4c // a esta funcion la tuve que poner aca porque:
 //``Las funciones constexpr deben estar disponibles para 
 //el compilador al momento de evaluar el código en tiempo de compilación.``
@@ -15,7 +12,7 @@ int main() {
     run_runtime_comparison();
     // Comparación en tiempo de compilación
     constexpr bool resultado = compararCompileTime("Somebody once told me the world is gonna roll me Iaintthesahrpesttool in the shed she was looking", "Somebody once told me the world is gonna roll me Iaintthesahrpesttool in the shed she was looking");
-    cout << "[Tiempo de compilacion] Las cadenas son " << (resultado ? "iguales" : "diferentes") << "." << endl; //si es true, se mete en iguales, sino en diferentes
+    cout << "[Tiempo de compilacion=0] Las cadenas son " << (resultado ? "iguales" : "diferentes") << "." << endl; //si es true, se mete en iguales, sino en diferentes
 
     return 0;
 }
